@@ -1,0 +1,23 @@
+/* Grid mains */
+
+@mixin sectionContainer($columns, $rows){
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat($columns, 1fr);
+    grid-template-rows: repeat($rows, fit-content);
+    grid-gap: 3rem;
+    width: 80vw;
+    height: auto;
+    margin: auto;
+}
+
+@mixin gridItem ($colStar, $colEnd, $rowStart, $rowEnd, $heigth){
+    grid-column-start: $colStar;
+    grid-column-end: $colEnd;
+    grid-row-start: $rowStart;
+    grid-row-end: $rowEnd;
+    width: 100%;
+    height: $heigth;
+    object-fit: cover;
+}
+

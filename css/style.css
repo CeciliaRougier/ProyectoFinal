@@ -1,0 +1,514 @@
+@charset "UTF-8";
+/* CSS General*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(../images/fotoTextura.jpg);
+  background-size: contain;
+}
+body a {
+  text-decoration: none;
+  color: black;
+}
+body a :visited {
+  color: black;
+}
+body a :hover {
+  text-decoration: none;
+  color: black;
+}
+
+/* Header */
+header {
+  background-color: #0559519f;
+  padding: 2.5rem;
+  margin: 0;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+  /* Sección Navegable */
+}
+header div {
+  height: auto;
+}
+header div a img {
+  width: 8rem;
+}
+header div h1 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 3.5rem;
+  color: black;
+  letter-spacing: 0.2rem;
+  display: inline;
+}
+header nav {
+  display: inline-block;
+}
+header nav div li {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  letter-spacing: 0.2rem;
+  display: inline-block;
+  margin: 0 1rem;
+  text-align: center;
+  background-color: transparent;
+}
+
+/* Grid mains */
+/* Main Index */
+.main-index {
+  margin: 2rem 0;
+  padding: 0;
+}
+.main-index video {
+  width: 100%;
+}
+
+main section .textos h3, main section .textos h2 {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: bold;
+  color: black;
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  text-align: left;
+}
+
+/* MAIN */
+main {
+  padding: 1rem;
+}
+main section .foto {
+  border-radius: 5px;
+  margin: 0.5rem;
+  box-shadow: 5px 6px 12px -2px rgba(113, 103, 103, 0.98);
+  -webkit-box-shadow: 5px 6px 12px -2px rgba(113, 103, 103, 0.98);
+  -moz-box-shadow: 5px 6px 12px -2px rgba(113, 103, 103, 0.98);
+}
+main section .foto:hover {
+  transform: scale(1.05);
+  transition: all, 250ms;
+}
+main section .textos {
+  background-color: #f2a6497c;
+  padding: 3rem 4rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+}
+main section .textos h2 {
+  padding: 0 1rem;
+}
+main section .textos p {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: justify;
+}
+main section .textos .parrafo-uno {
+  display: inline-block;
+  width: 30%;
+  padding: 0 1rem;
+}
+main section .textos .parrafo-dos-container .parrafo-dos {
+  display: inline-block;
+  width: 49%;
+  padding: 0 1rem;
+}
+main section .textos .parrafo-tres-container .parrafo-tres {
+  display: inline-block;
+  width: 33%;
+  padding: 0 1rem;
+}
+main .mainSobre {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(3, fit-content);
+  grid-gap: 3rem;
+  width: 80vw;
+  height: auto;
+  margin: auto;
+}
+main .mainSobre .item1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+main .mainSobre .item2 {
+  grid-column-start: 5;
+  grid-column-end: 11;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main .mainSobre .item3 {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main .mainSobre .item4 {
+  grid-column-start: 7;
+  grid-column-end: 11;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+main .mainSobre .item5 {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main .mainSobre .item6 {
+  grid-column-start: 6;
+  grid-column-end: 11;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main .mainAcuarelas2 {
+  padding: 2rem 0;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, fit-content);
+  grid-gap: 3rem;
+  width: 80vw;
+  height: auto;
+  margin: auto;
+}
+main .mainAcuarelas2 .item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+main .mainAcuarelas2 .item2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main .mainAcuarelas2 .item3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main .mainAcuarelas2 .item4 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main .mainAcuarelas2 .item5 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main .mainAcuarelas2 .item6 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main .mainAcuarelas2 .item7 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+main .mainAcuarelas2 .item8 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main .mainAcuarelas2 .item9 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main .mainAcuarelas2 .item10 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main .mainOleos {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(3, fit-content);
+  grid-gap: 3rem;
+  width: 80vw;
+  height: auto;
+  margin: auto;
+}
+main .mainOleos .item1 {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+main .mainOleos .item2 {
+  grid-column-start: 7;
+  grid-column-end: 11;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main .mainOleos .item3 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main .mainOleos .item4 {
+  grid-column-start: 5;
+  grid-column-end: 11;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main .mainOleos .item5 {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main .mainOleos .item6 {
+  grid-column-start: 6;
+  grid-column-end: 11;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main .mainLapices {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(7, fit-content);
+  grid-gap: 3rem;
+  width: 80vw;
+  height: auto;
+  margin: auto;
+}
+main .mainLapices .item1 {
+  grid-column-start: 1;
+  grid-column-end: 11;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+main .mainLapices .item2 {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 6;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main .mainLapices .item3 {
+  grid-column-start: 7;
+  grid-column-end: 11;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main .mainLapices .item4 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 8;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main .mainLapices .item5 {
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 6;
+  grid-row-end: 8;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main .mainLapices .item6 {
+  grid-column-start: 7;
+  grid-column-end: 11;
+  grid-row-start: 5;
+  grid-row-end: 8;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Footer */
+footer {
+  background-color: #bf808083;
+  padding: 4rem;
+  margin: auto;
+  height: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+footer div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+footer div .redes-icon {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+}
+footer div div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+  padding: 0;
+  align-items: flex-start;
+}
+footer div div p {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
+  margin: 0.5rem 1rem;
+  display: inline-block;
+}
+footer .link-footer {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  letter-spacing: 0.1rem;
+  margin: 3.5rem;
+  color: black;
+  font-size: 1.3rem;
+  float: right;
+  justify-content: flex-end;
+}
+footer .link-icon-w {
+  font-size: 1.5rem;
+  margin: 10px;
+  padding: 0.7rem 1rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 0vh;
+  right: 0vw;
+  background-color: #82b3609c;
+}
+
+/* Responsive TABLET*/
+@media only screen and (max-width: 990px) {
+  html {
+    font-size: 7px;
+  }
+}
+/* Responsive MOBILE */
+@media only screen and (max-width: 650px) {
+  html {
+    font-size: 6px;
+  }
+
+  #inicio {
+    background-color: #0559519f;
+    padding: 2.5rem;
+    margin: 0;
+    height: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  footer {
+    padding: 1rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
