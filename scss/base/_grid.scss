@@ -5,8 +5,7 @@
     display: grid;
     grid-template-columns: repeat($columns, 1fr);
     grid-template-rows: repeat($rows, fit-content);
-    grid-row-gap: 0;
-    grid-column-gap: 2rem;
+    grid-gap: 1.5rem;
     width: 80vw;
     height: auto;
     margin: auto;
