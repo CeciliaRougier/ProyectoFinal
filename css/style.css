@@ -142,6 +142,12 @@ main .mainSobre {
   height: auto;
   margin: auto;
 }
+@media only screen and (max-width: 650px) {
+  main .mainSobre {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 main .mainSobre .item1 {
   grid-column-start: 1;
   grid-column-end: 5;
@@ -207,6 +213,12 @@ main .mainAcuarelas {
   height: auto;
   margin: auto;
 }
+@media only screen and (max-width: 650px) {
+  main .mainAcuarelas {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 main .mainAcuarelas .item1 {
   grid-column-start: 1;
   grid-column-end: 3;
@@ -262,6 +274,12 @@ main .mainAcuarelasAves {
   width: 80vw;
   height: auto;
   margin: auto;
+}
+@media only screen and (max-width: 650px) {
+  main .mainAcuarelasAves {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 main .mainAcuarelasAves .item1 {
   grid-column-start: 1;
@@ -373,6 +391,12 @@ main .mainAcuarelasBotanica {
   height: auto;
   margin: auto;
 }
+@media only screen and (max-width: 650px) {
+  main .mainAcuarelasBotanica {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 main .mainAcuarelasBotanica .item1 {
   grid-column-start: 1;
   grid-column-end: 4;
@@ -446,6 +470,12 @@ main .mainOleos {
   height: auto;
   margin: auto;
 }
+@media only screen and (max-width: 650px) {
+  main .mainOleos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 main .mainOleos .item1 {
   grid-column-start: 1;
   grid-column-end: 7;
@@ -509,6 +539,12 @@ main .mainLapices {
   width: 80vw;
   height: auto;
   margin: auto;
+}
+@media only screen and (max-width: 650px) {
+  main .mainLapices {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 main .mainLapices .item1 {
   grid-column-start: 1;
@@ -575,6 +611,11 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+@media only screen and (max-width: 650px) {
+  footer {
+    height: auto;
+  }
 }
 footer div {
   display: flex;
@@ -669,6 +710,12 @@ body main .promociones h4 {
   text-align: center;
   margin: 0 auto;
   font-weight: bolder;
+}
+@media only screen and (max-width: 650px) {
+  body main .promociones {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 body main .promociones .item1 {
   grid-column-start: 2;
