@@ -2,7 +2,19 @@
 .main-index{
     margin: 2rem 0;
     padding: 0;
-    video{
-        width: 100%;
+    .video-b{
+        width: 100vw;
+        height: auto;
+        @media only screen and (max-width: 650px) {
+            display: none;
+        }
+    }
+    .video-s{
+        display: none;
+        @media only screen and (max-width: 650px) {
+            display: flex;
+            width: 100vw;
+            height: auto;
+        }
     }
 }
