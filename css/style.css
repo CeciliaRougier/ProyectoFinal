@@ -651,7 +651,7 @@ footer div div {
   padding: 0;
   align-items: flex-start;
 }
-footer div div p {
+footer div div a {
   color: black;
   font-family: "Montserrat", sans-serif;
   font-size: 1.3rem;
