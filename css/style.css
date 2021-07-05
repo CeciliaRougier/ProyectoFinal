@@ -129,24 +129,9 @@ main section .textos h2 {
 main section .textos p {
   color: black;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 1.7rem;
+  font-weight: bolder;
   text-align: justify;
-}
-main section .textos .parrafo-uno {
-  display: inline-block;
-  width: 30%;
-  padding: 0 1rem;
-}
-main section .textos .parrafo-dos-container .parrafo-dos {
-  display: inline-block;
-  width: 49%;
-  padding: 0 1rem;
-}
-main section .textos .parrafo-tres-container .parrafo-tres {
-  display: inline-block;
-  width: 33%;
-  padding: 0 1rem;
 }
 main .mainSobre {
   align-items: center;

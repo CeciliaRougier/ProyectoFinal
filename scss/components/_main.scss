@@ -32,22 +32,9 @@ main{
             p{
                 color: $fontColor;
                 font-family: $fontText;
-                font-size: 1.5rem;
-                font-weight: bold;
+                font-size: 1.7rem;
+                font-weight: bolder;
                 text-align: justify;
-            } 
-            .parrafo-uno{
-                @include parrafos (30%);
-            }  
-            .parrafo-dos-container{
-                .parrafo-dos{
-                    @include parrafos (49%);
-                }
-            }
-            .parrafo-tres-container{
-                .parrafo-tres{
-                    @include parrafos (33%);
-                }
             }
         }
 
