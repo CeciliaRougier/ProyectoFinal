@@ -41,11 +41,11 @@ header div {
   height: auto;
 }
 header div a img {
-  width: 8rem;
+  width: 10rem;
 }
 header div h1 {
   font-family: "Shadows Into Light", cursive;
-  font-size: 3.5rem;
+  font-size: 4rem;
   color: black;
   letter-spacing: 0.2rem;
   display: inline;
@@ -73,8 +73,9 @@ header nav div li {
   padding: 0;
 }
 .main-index .video-b {
-  width: 100vw;
+  width: 98.5vw;
   height: auto;
+  margin: auto;
 }
 @media only screen and (max-width: 650px) {
   .main-index .video-b {
@@ -94,11 +95,12 @@ header nav div li {
 
 main section .textos h3, main section .textos h2 {
   font-family: "Shadows Into Light", cursive;
-  font-weight: bold;
+  font-weight: bolder;
   color: black;
   font-size: 3rem;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.3rem;
   text-align: left;
+  font-style: italic;
 }
 
 /* MAIN */
@@ -692,6 +694,7 @@ footer .link-icon-w {
   }
 }
 body main .promociones {
+  height: auto;
   padding: 0;
   align-items: center;
   display: grid;
@@ -702,7 +705,7 @@ body main .promociones {
   height: auto;
   margin: auto;
 }
-body main .promociones h4 {
+body main .promociones h2 {
   font-family: "Shadows Into Light", cursive;
   font-weight: bold;
   color: black;
